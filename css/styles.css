@@ -5,6 +5,7 @@
   --background-сolor: #2F303A ;
   --text-color:#757575;
   --litter-color-white:#ffffff;
+  --heder-height:80px;
 
 }
 *,
@@ -97,6 +98,7 @@ padding-bottom: 25px;
 }
 
 .header{
+  height: var(--heder-height);
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -128,12 +130,7 @@ letter-spacing: 0.02em;
 
 }
 
-.header-top-link{
-  padding-top: 32px;
-  padding-bottom: 32px;
- 
-  
-}
+
 
 .header-link{
   display: flex;
@@ -152,8 +149,6 @@ letter-spacing: 0.02em;
   font-weight: normal;
   text-decoration: none;
   color: var(--text-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
   display: flex;
   align-items: center;
  
@@ -315,8 +310,7 @@ padding-bottom: 47px;
 justify-content: space-between;
  
 width: 270px;
-left: 515px;
-top: 1635px;
+
 
 background: #FFFFFF;
 
