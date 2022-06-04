@@ -240,13 +240,14 @@ letter-spacing: 0.03em;
 color: var(--text-color);
 }
 
-.plan-icon{
-padding-top: 25px;
-}
+
+
 
 .plan-icon-list{
   display: flex;
   justify-content: center;
+  align-items: center;
+ 
  
   width: 270px;
   height: 120px;
@@ -358,7 +359,6 @@ border-radius: 0px 0px 4px 4px;
 
  .team-soc-list{
    margin-top: 16px;
-  padding-bottom: 30px;
    display: flex;
    justify-content: center;
  }
@@ -394,8 +394,13 @@ margin-right: 30px;
 .clients-item:last-child{
   margin-right: 0;
 }
+.clients-item:hover,
+.clients-item:focus{
+border: 1px solid #2196F3 ;
+}
 
-.team-soc-icon:hover{
+.clients-item:hover .team-soc-icon,
+.clients-item:focus .team-soc-icon{
   fill: var(--aсcent-color);
 }
 
@@ -432,6 +437,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 .footer-top-list{
   display: flex;
+  align-items: baseline;
   
 }
 
@@ -505,8 +511,11 @@ color: #FFFFFF;
   margin-right: 8px;
   
 }
-.portfolio-item:hover,
-.portfolio-item:focus
+.portfolio-link{
+  display: block;
+}
+.portfolio-link:hover,
+.portfolio-link:focus
 .potfolio-cards-item:hover,
 .potfolio-cards-item:hover
 {
