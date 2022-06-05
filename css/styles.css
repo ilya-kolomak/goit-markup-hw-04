@@ -461,8 +461,6 @@ color: var(--litter-color-white);
 .footer-soc-list{
   display: flex;
   margin-top: 20px;
-  width: 206px;
-  height: 80px;
 }
 
 
